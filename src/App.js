@@ -37,10 +37,11 @@ const allImages = [
   require("./imageleContent/เมื่ออาตมาได้พบ5-4x.png"),
   require("./imageleContent/เมื่ออาตมาได้พบ6-4x.png"),
   require("./imageleContent/วิธีสวดพระพุทธคุณ-บทกราบพระ-4x.png"),
+  require("./imageNew/บทกราบพระ6ครั้ง.jpg"),
   require("./imageNew/S__62341126.jpg"),
   require("./imageNew/S__62341127.jpg"),
   require("./imageNew/S__62341128.jpg"),
-  require("./imageNew/บทกราบพระ6ครั้ง.jpg"),
+  
   
   require("./imageNew/S__62341131.jpg"),
   require("./imageNew/S__62341140.jpg"),
@@ -49,11 +50,13 @@ const allImages = [
   require("./imageNew/S__62341146_0.jpg"),
   require("./imageNew/S__62341147_0.jpg"),
 
+  require("./image2/บูชาพระรัตนตรัย 1@4x.png"),
+  require("./image2/บูชาพระรัตนตรัย2@4x.png"),
+
 
   require("./imageleContent/นมัสการพระรัตนตรัย-4x.png"),
   require("./imageleContent/ถวายพรพระ-4x.png"),
-  require("./image2/บูชาพระรัตนตรัย 1@4x.png"),
-  require("./image2/บูชาพระรัตนตรัย2@4x.png"),
+  
   require("./imageNew/ไตรสรณคมน์.jpg"),
   require("./image2/อาราธนาศีล 5@4x.png"),
   require("./imageleContent/พาหุง1-4x.png"),
