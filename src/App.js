@@ -41,8 +41,7 @@ const allImages = [
   require("./imageNew/S__62341126.jpg"),
   require("./imageNew/S__62341127.jpg"),
   require("./imageNew/S__62341128.jpg"),
-  
-  
+
   require("./imageNew/S__62341131.jpg"),
   require("./imageNew/S__62341140.jpg"),
   require("./imageNew/S__62341141.jpg"),
@@ -51,13 +50,20 @@ const allImages = [
   require("./imageNew/S__62341147_0.jpg"),
 
   require("./image2/บูชาพระรัตนตรัย 1@4x.png"),
-  require("./image2/บูชาพระรัตนตรัย2@4x.png"),
+  // require("./image2/บูชาพระรัตนตรัย2@4x.png"),
+  require("./imageNew/ไตรสรณคมน์4x.png"),
 
-
-  require("./imageleContent/นมัสการพระรัตนตรัย-4x.png"),
+  // require("./imageleContent/นมัสการพระรัตนตรัย-4x.png"),
   require("./imageleContent/ถวายพรพระ-4x.png"),
-  
-  require("./imageNew/ไตรสรณคมน์.jpg"),
+  require("./imageNew/บทสวดพุทธานุสสติ@4x_0.png"),
+  require("./imageNew/พระพุทธคุณทำนองสรภัญญะ@4x_0.png"),
+  require("./imageNew/บทสวดธัมมานุสสติ@4x_0.png"),
+  require("./imageNew/พระธรรมคุณทำนองสรภัญญะ@4x_0.png"),
+  require("./imageNew/บทสวดสังฆานุสสติ@4x_0.png"),
+  require("./imageNew/พระสังฆคุณทำนองสรภัญญะ@4x_0.png"),
+
+
+  // require("./imageNew/ไตรสรณคมน์.jpg"),
   require("./image2/อาราธนาศีล 5@4x.png"),
   require("./imageleContent/พาหุง1-4x.png"),
   require("./imageleContent/พาหุง2-4x.png"),
@@ -106,14 +112,9 @@ const allImages = [
   require("./image2/บทแผ่ส่วนกุศล 1@4x.png"),
   require("./image2/บทแผ่ส่วนกุศล 2@4x.png"),
   require("./image2/บทแผ่ส่วนกุศล 3@4x.png"),
-   require("./image2/อาราธนาพระปริตร@4x.png"),
+  require("./image2/อาราธนาพระปริตร@4x.png"),
   require("./image2/คำถวายสังฆทาน4x.png"),
-  
 
-  
-  
-
- 
   //**** */
   require("./image2/คาถาเงินล้าน 1@4x.png"),
   require("./image2/คาถาเงินล้าน 2@4x.png"),
@@ -130,8 +131,6 @@ const allImages = [
   // require("./image2/คาถามหาลาภ@4x.png"),
 
   // require("./image2/คาถาพระเจ้าชนะมาร_1@4x.png"),
-
-  
 
   require("./image2/บทสวดพระพุทธคุณ 1@4x.png"),
   require("./image2/บทสวดพระพุทธคุณ 2@4x.png"),
@@ -201,6 +200,8 @@ const EbookSlider = () => {
               />
             ))}
           </HTMLFlipBook>
+          {/* ✅ แสดงเลขหน้า */}
+          
         </div>
       </div>
 
@@ -216,6 +217,14 @@ const EbookSlider = () => {
           </div>
         </div>
       </div>
+      <div
+            style={{ marginTop: "20px", fontSize: "18px", fontWeight: "bold" }}
+          >
+            {/* 📖 Index ปัจจุบัน: {currentPage}
+            <br /> */}
+            📄 หน้า {currentPage + 1} จาก {allImages.length}
+          </div>
+      <div>Current Index: {currentPage}</div>
     </div>
   );
 };
